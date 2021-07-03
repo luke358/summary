@@ -1,8 +1,8 @@
 <template>
 	<div>
 		<task-menu task="任务一">
-      <template slot="title" slot-scope="abc">
-			  <span > {{ abc.msg }} </span>
+      <template slot="title" slot-scope="scope">
+			  <span > {{ scope.row.msg }} </span>
       </template>
 		</task-menu>
 

@@ -5,7 +5,7 @@
 			<div class="content">
 				<div class="title">
 					标题:
-					<slot name="title" v-bind="slotData" />
+					<slot name="title" v-bind:row="slotData" />
 				</div>
 				<div>内容: <span>xxxxx</span></div>
 				<div>时间: <span>2018-01-01</span></div>
